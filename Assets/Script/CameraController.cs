@@ -27,10 +27,10 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        MoveByKB();
     }
 
-    void MoveByKB ()
+    void MoveByKB()
     {
         xInput = Input.GetAxis("Horizontal");
         zInput = Input.GetAxis("Vertical");
