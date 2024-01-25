@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 274322131}
   - component: {fileID: 274322130}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: AttackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 274322131}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 896319076}
+        m_TargetAssemblyTypeName: TestScene, Assembly-CSharp
+        m_MethodName: SetAttack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &274322131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +256,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274322128}
   m_CullTransparentMesh: 1
+--- !u!114 &340111902 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1697114722567828272, guid: 67287f06e87d17d428719483205fd601, type: 3}
+  m_PrefabInstance: {fileID: 2123435508}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc081b437b841b0469ca304e955c3d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &727258170
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,7 +280,7 @@ GameObject:
   - component: {fileID: 727258173}
   - component: {fileID: 727258172}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: WalkButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326,7 +349,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 727258173}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 896319076}
+        m_TargetAssemblyTypeName: TestScene, Assembly-CSharp
+        m_MethodName: SetMove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &727258173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,6 +412,7 @@ GameObject:
   - component: {fileID: 896319074}
   - component: {fileID: 896319073}
   - component: {fileID: 896319072}
+  - component: {fileID: 896319076}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -467,6 +503,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &896319076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896319071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b890ba981d5d44f90f4ca9275e86c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  units:
+  - {fileID: 340111902}
 --- !u!1 &903584082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,7 +1174,7 @@ GameObject:
   - component: {fileID: 1808909885}
   - component: {fileID: 1808909884}
   m_Layer: 5
-  m_Name: Button
+  m_Name: IdleButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1193,7 +1243,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1808909885}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 896319076}
+        m_TargetAssemblyTypeName: TestScene, Assembly-CSharp
+        m_MethodName: SetIdle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1808909885
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestScene : MonoBehaviour
 {
-    private Unit[] units;
+    [SerializeField] private Unit[] units;
 
     public void SetIdle()
     {
