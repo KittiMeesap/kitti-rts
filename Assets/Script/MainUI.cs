@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class MainUI : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject selectionMaker;
+    public GameObject SelectionMaker { get { return selectionMaker; } }
+
     public static MainUI instance;
 
     private void Awake()
