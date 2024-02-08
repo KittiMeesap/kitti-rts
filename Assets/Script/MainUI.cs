@@ -12,7 +12,7 @@ public class MainUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI unitCountText;
     [SerializeField] private TextMeshProUGUI foodText;
     [SerializeField] private TextMeshProUGUI woodText;
-    [SerializeField] private TextMeshProUGUI glodText;
+    [SerializeField] private TextMeshProUGUI goldText;
     [SerializeField] private TextMeshProUGUI stoneText;
 
     public static MainUI instance;
