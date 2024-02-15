@@ -5279,6 +5279,8 @@ MonoBehaviour:
     gold: 20
     stone: 0
   unitWaitTime: 0.1
+  isBuilder: 0
+  builder: {fileID: 0}
 --- !u!114 &-3590038038075463438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6266,6 +6268,10 @@ PrefabInstance:
     - target: {fileID: 2638001167165930584, guid: 127a7aaf4e12a8c4885c0805d6913c1a, type: 3}
       propertyPath: m_Name
       value: UnitSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 2638001167165930584, guid: 127a7aaf4e12a8c4885c0805d6913c1a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2638001167165930584, guid: 127a7aaf4e12a8c4885c0805d6913c1a, type: 3}
       propertyPath: m_IsActive
