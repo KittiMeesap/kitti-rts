@@ -26,7 +26,7 @@ public class Builder : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        unit = GetComponent<Unit>();
     }
 
     // Update is called once per frame
