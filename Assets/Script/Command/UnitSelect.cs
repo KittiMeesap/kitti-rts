@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class UnitSelect : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class UnitSelect : MonoBehaviour
     private Camera cam;
     private Faction faction;
 
+    [SerializeField]
+    private Building curBuilding; //current selected single building
+    public Building CurBuilding { get { return curBuilding; } }
+
     public static UnitSelect instance;
 
     private void SelectUnit(RaycastHit hit)
@@ -24,6 +29,12 @@ public class UnitSelect : MonoBehaviour
         curUnit.ToggleSelectionVisual(true);
 
         Debug.Log("Selected Unit");
+
+        if (GameManager.instance.MyFaction.IsMyUnit(curUnit))
+        {
+            ShowUnit(curUnit);
+        }
+
     }
 
 
@@ -40,6 +51,10 @@ public class UnitSelect : MonoBehaviour
                 case "Unit":
                     SelectUnit(hit);
                     break;
+
+                case "Building":
+                    BuildingSelect(hit);
+                    break;
             }
         }
     }
@@ -49,6 +64,10 @@ public class UnitSelect : MonoBehaviour
     {
         if (curUnit != null)
             curUnit.ToggleSelectionVisual(false);
+        if (curBuilding != null)
+        {
+            curBuilding.ToggleSelectionVisual(false);
+        }
     }
 
 
@@ -56,8 +75,33 @@ public class UnitSelect : MonoBehaviour
     {
         ClearAllSelectionVisual();
         curUnit = null;
+        curBuilding = null;
+
+        //Clear UI
+        InfoManager.instance.ClearAllInfo();
     }
 
+    private void ShowUnit(Unit u)
+    {
+        InfoManager.instance.ShowAllInfo(u);
+    }
+
+    private void ShowBuilding(Building b)
+    {
+        InfoManager.instance.ShowAllInfo(b);
+    }
+
+    private void BuildingSelect(RaycastHit hit)
+    {
+        curBuilding = hit.collider.GetComponent<Building>();
+        curBuilding.ToggleSelectionVisual(true);
+
+        if (GameManager.instance.MyFaction.IsMyBuilding(curBuilding))
+        {
+            //Debug.Log("my building");
+            ShowBuilding(curBuilding);//Show building info
+        }
+    }
 
 
     void Awake()
@@ -79,6 +123,9 @@ public class UnitSelect : MonoBehaviour
         //mouse down
         if (Input.GetMouseButtonDown(0))
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+
             ClearEverything();
         }
 
