@@ -22,7 +22,39 @@ public class UnitSelect : MonoBehaviour
 
     public static UnitSelect instance;
 
-    private void SelectUnit(RaycastHit hit)
+    void Awake()
+    {
+        faction = GetComponent<Faction>();
+    }
+
+
+    void Start()
+    {
+        cam = Camera.main;
+        layerMask = LayerMask.GetMask("Unit", "Building", "Resource", "Ground");
+
+        instance = this;
+    }
+
+    void Update()
+    {
+        //mouse down
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+
+            ClearEverything();
+        }
+
+        // mouse up
+        if (Input.GetMouseButtonUp(0))
+        {
+            TrySelect(Input.mousePosition);
+        }
+    }
+
+        private void SelectUnit(RaycastHit hit)
     {
         curUnit = hit.collider.GetComponent<Unit>();
 
@@ -84,6 +116,9 @@ public class UnitSelect : MonoBehaviour
     private void ShowUnit(Unit u)
     {
         InfoManager.instance.ShowAllInfo(u);
+
+        if (u.IsBuilder)
+            ActionManager.instance.ShowBuilderMode(u);
     }
 
     private void ShowBuilding(Building b)
@@ -102,39 +137,5 @@ public class UnitSelect : MonoBehaviour
             //Debug.Log("my building");
             ShowBuilding(curBuilding);//Show building info
         }
-    }
-
-
-    void Awake()
-    {
-        faction = GetComponent<Faction>();
-    }
-
-
-    void Start()
-    {
-        cam = Camera.main;
-        layerMask = LayerMask.GetMask("Unit", "Building", "Resource", "Ground");
-
-        instance = this;
-    }
-
-    void Update()
-    {
-        //mouse down
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (EventSystem.current.IsPointerOverGameObject())
-                return;
-
-            ClearEverything();
-        }
-
-        // mouse up
-        if (Input.GetMouseButtonUp(0))
-        {
-            TrySelect(Input.mousePosition);
-        }
-
     }
 }
