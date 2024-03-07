@@ -31,12 +31,6 @@ public class Building : Structure
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-            ToCreateUnit(0);
-
-        if (Input.GetKeyDown(KeyCode.H))
-            ToCreateUnit(1);
-
         if ((recruitList.Count > 0) && (recruitList[0] != null))
         {
             unitTimer += Time.deltaTime;
@@ -99,6 +93,7 @@ public class Building : Structure
         recruitList.RemoveAt(0);
 
         Unit unit = unitObj.GetComponent<Unit>();
+        unit.Faction =faction;
         unit.MoveToPosition(rallyPoint.position); //Go to Rally Point
 
         //Add unit into faction's Army
