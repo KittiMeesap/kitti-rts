@@ -80,6 +80,28 @@ public class Unit : MonoBehaviour
     [SerializeField] private Builder builder;
     public Builder Builder { get { return builder; } }
 
+    void Awake()
+    {
+        navAgent = GetComponent<NavMeshAgent>();
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        switch (state)
+        {
+            case UnitState.Move:
+                MoveUpdate();
+                break;
+        }
+
+    }
 
     public void ToggleSelectionVisual(bool flag)
     {
@@ -117,28 +139,4 @@ public class Unit : MonoBehaviour
             SetState(UnitState.Idle);
     }
 
-
-
-    void Awake()
-    {
-        navAgent = GetComponent<NavMeshAgent>();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        switch (state)
-        {
-            case UnitState.Move:
-                MoveUpdate();
-                break;
-        }
-
-    }
 }

@@ -20,7 +20,42 @@ public class Building : Structure
     [SerializeField] private float curUnitWaitTime = 0f;
 
     [SerializeField] private bool isFunctional;
-    public bool IsFunctional { get { return isFunctional; } set { isFunctional = value; } } 
+    public bool IsFunctional { get { return isFunctional; } set { isFunctional = value; } }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+            ToCreateUnit(0);
+
+        if (Input.GetKeyDown(KeyCode.H))
+            ToCreateUnit(1);
+
+        if ((recruitList.Count > 0) && (recruitList[0] != null))
+        {
+            unitTimer += Time.deltaTime;
+            curUnitWaitTime = recruitList[0].UnitWaitTime;
+
+            if (unitTimer >= curUnitWaitTime)
+            {
+                curUnitProgress++;
+                unitTimer = 0f;
+
+                if (curUnitProgress >= 100)
+                {
+                    curUnitProgress = 0;
+                    curUnitWaitTime = 0f;
+                    CreateUnitCompleted();
+                }
+            }
+        }
+    }
 
     public void ToCreateUnit(int i)
     {
@@ -79,40 +114,5 @@ public class Building : Structure
     {
         if (SelectionVisual != null)
             SelectionVisual.SetActive(flag);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.G))
-            ToCreateUnit(0);
-
-        if (Input.GetKeyDown(KeyCode.H))
-            ToCreateUnit(1);
-
-        if ((recruitList.Count > 0) && (recruitList[0] != null))
-        {
-            unitTimer += Time.deltaTime;
-            curUnitWaitTime = recruitList[0].UnitWaitTime;
-
-            if (unitTimer >= curUnitWaitTime)
-            {
-                curUnitProgress++;
-                unitTimer = 0f;
-
-                if (curUnitProgress >= 100)
-                {
-                    curUnitProgress = 0;
-                    curUnitWaitTime = 0f;
-                    CreateUnitCompleted();
-                }
-            }
-        }
     }
 }
