@@ -6644,6 +6644,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House
       objectReference: {fileID: 0}
+    - target: {fileID: 2196269234305364013, guid: 9b7d01c183dfa974aa2e83f8f0b99eca, type: 3}
+      propertyPath: isHQ
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196269234305364013, guid: 9b7d01c183dfa974aa2e83f8f0b99eca, type: 3}
+      propertyPath: isFunctional
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
