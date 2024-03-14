@@ -140,7 +140,6 @@ public class Faction : MonoBehaviour
             MainUI.instance.UpdateAllResource(this);
     }
 
-
     // Start is called before the first frame update
     void Start()
     {
