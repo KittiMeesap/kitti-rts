@@ -68,7 +68,7 @@ public class UnitCommand : MonoBehaviour
     private void ResourceCommand(RaycastHit hit, Unit unit)
     {
         UnitsToGatherResource(hit.collider.GetComponent<ResourceSource>(), unit);
-        CreateVFXMarker(hit.transform.position, MainUI.instance.SelectionMarker);
+        CreateVFXMarker(hit.transform.position, MainUI.instance.SelectionMaker);
     }
 
     // Start is called before the first frame update
