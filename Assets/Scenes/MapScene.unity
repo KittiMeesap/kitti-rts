@@ -2747,7 +2747,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1698092034992670200, guid: 633fbc32985886642a8076ce80588948, type: 3}
       propertyPath: curHP
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1698092034992670200, guid: 633fbc32985886642a8076ce80588948, type: 3}
       propertyPath: faction
