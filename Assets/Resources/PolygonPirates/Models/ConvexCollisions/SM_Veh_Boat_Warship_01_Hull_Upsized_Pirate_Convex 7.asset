@@ -6,8 +6,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Generated convex submesh 3
-  serializedVersion: 10
+  m_Name: SM_Veh_Boat_Warship_01_Hull_Upsized_Pirate_Convex 7
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -154,6 +154,7 @@ Mesh:
     m_Center: {x: 0.4138958, y: 11.407593, z: -1.6819746}
     m_Extent: {x: 1.7234952, y: 5.1738167, z: 7.207283}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -171,7 +172,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Generated convex submesh 4
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -318,6 +319,7 @@ Mesh:
     m_Center: {x: 0.001431942, y: 19.615345, z: 0.5806505}
     m_Extent: {x: 5.567001, y: 0.24960041, z: 0.5314371}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -335,7 +337,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SM_Veh_Boat_Warship_01_Hull_Upsized_Pirate_Convex 7
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -482,6 +484,7 @@ Mesh:
     m_Center: {x: 0.01213032, y: 11.353959, z: 0.24282159}
     m_Extent: {x: 0.54485995, y: 11.085006, z: 0.7006636}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -499,7 +502,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SM_Veh_Boat_Warship_01_Hull_Upsized_Pirate_Convex 7
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -646,6 +649,7 @@ Mesh:
     m_Center: {x: 0.0013737679, y: 13.700361, z: 0.10060871}
     m_Extent: {x: 1.5537763, y: 3.3498688, z: 1.5618278}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
