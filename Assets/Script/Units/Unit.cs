@@ -108,9 +108,7 @@ public class Unit : MonoBehaviour
             builder = GetComponent<Builder>();
 
         if (IsWorker)
-        {
             worker = GetComponent<Worker>();
-        }
     }
 
     // Start is called before the first frame update

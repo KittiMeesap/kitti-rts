@@ -2777,6 +2777,14 @@ PrefabInstance:
       propertyPath: unitPrefabs.Array.data[3]
       value: 
       objectReference: {fileID: 128380, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+    - target: {fileID: 2322334414985574552, guid: 633fbc32985886642a8076ce80588948, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616412469077469548, guid: 633fbc32985886642a8076ce80588948, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3022140154553146983, guid: 633fbc32985886642a8076ce80588948, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.7
@@ -4166,6 +4174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Storage
       objectReference: {fileID: 0}
+    - target: {fileID: 2196269234305364013, guid: e6e0ddb91a4a25c47bee6cf993eb6cca, type: 3}
+      propertyPath: faction
+      value: 
+      objectReference: {fileID: 785833070}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5580,7 +5592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1265245646}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WoodTreeParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6375,9 +6387,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1494351531}
   - component: {fileID: 1494351530}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ResourceManager
-  m_TagString: Untagged
+  m_TagString: Resource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6649,6 +6661,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2196269234305364013, guid: 9b7d01c183dfa974aa2e83f8f0b99eca, type: 3}
+      propertyPath: faction
+      value: 
+      objectReference: {fileID: 785833070}
+    - target: {fileID: 2196269234305364013, guid: 9b7d01c183dfa974aa2e83f8f0b99eca, type: 3}
       propertyPath: isFunctional
       value: 0
       objectReference: {fileID: 0}
@@ -6750,6 +6766,10 @@ PrefabInstance:
     - target: {fileID: 4834197414808902, guid: 0dd302aa8cbf1d14a8f24a87493bc019, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5435248085732088540, guid: 0dd302aa8cbf1d14a8f24a87493bc019, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5435248085732088540, guid: 0dd302aa8cbf1d14a8f24a87493bc019, type: 3}
       propertyPath: m_IsActive
