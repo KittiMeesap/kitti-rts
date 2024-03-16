@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: -4540352410426792449}
   - component: {fileID: -4059547574852882213}
   - component: {fileID: -815248469999109368}
-  - component: {fileID: 4980412447254238657}
   m_Layer: 6
   m_Name: Builder
   m_TagString: Unit
@@ -134,7 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 3
-  unitName: Worker
+  unitName: Builder
   unitPic: {fileID: 21300000, guid: e0f1bb3fcf25815478b4fedd4a7879e4, type: 3}
   curHP: 100
   maxHP: 100
@@ -155,7 +154,7 @@ MonoBehaviour:
   unitWaitTime: 0.1
   isBuilder: 1
   builder: {fileID: 0}
-  isWorker: 1
+  isWorker: 0
   worker: {fileID: 0}
   pathUpdateRate: 1
   lastPathUpdateTime: 0
@@ -196,24 +195,6 @@ MonoBehaviour:
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
---- !u!114 &4980412447254238657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77a9d5767fdff914e94f3c155e9a9cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curResourceSource: {fileID: 0}
-  gatherRate: 0.5
-  gatherAmount: 1
-  amountCarry: 0
-  maxCarry: 25
-  carryType: 0
 --- !u!1 &6686888470551437
 GameObject:
   m_ObjectHideFlags: 0
