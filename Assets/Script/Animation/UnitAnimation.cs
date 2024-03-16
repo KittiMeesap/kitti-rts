@@ -38,16 +38,16 @@ public class UnitAnimation : MonoBehaviour
                 anim.SetBool("IsBuildProgress", true);
                 break;
             case UnitState.MoveToResource:
-                anim.SetBool("IsMoveToResource", false);
+                anim.SetBool("IsMoveToResource", true);
                 break;
             case UnitState.Gather:
-                anim.SetBool("IsGather", false);
+                anim.SetBool("IsGather", true);
                 break;
             case UnitState.DeliverToHQ:
-                anim.SetBool("DeliverToHQ", false);
+                anim.SetBool("IsDeliverToHQ", true);
                 break;
             case UnitState.StoreAtHQ:
-                anim.SetBool("IsStoreAtHQ", false);
+                anim.SetBool("IsStoreAtHQ", true);
                 break;
         }
     }
