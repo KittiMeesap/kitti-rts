@@ -102,9 +102,9 @@ public class UnitSelect : MonoBehaviour
         if (curUnit != null)
             curUnit.ToggleSelectionVisual(false);
         if (curBuilding != null)
-        {
             curBuilding.ToggleSelectionVisual(false);
-        }
+        if (curResource != null)
+            curResource.ToggleSelectionVisual(false);
     }
 
 
