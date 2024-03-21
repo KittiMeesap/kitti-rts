@@ -19,6 +19,7 @@ public class UnitAnimation : MonoBehaviour
         anim.SetBool("IsGather", false);
         anim.SetBool("IsDeliverToHQ", false);
         anim.SetBool("IsStoreAtHQ", false);
+        anim.SetBool("IsDie",false);
 
         switch (u.State)
         {
@@ -48,6 +49,9 @@ public class UnitAnimation : MonoBehaviour
                 break;
             case UnitState.StoreAtHQ:
                 anim.SetBool("IsStoreAtHQ", true);
+                break;
+            case UnitState.Die:
+                anim.SetBool("IsDie",false);
                 break;
         }
     }
