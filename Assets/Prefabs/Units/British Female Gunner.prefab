@@ -1634,6 +1634,7 @@ GameObject:
   - component: {fileID: 6897550086596050678}
   - component: {fileID: -4540352410426792449}
   - component: {fileID: -4059547574852882213}
+  - component: {fileID: 4380860657694718353}
   m_Layer: 6
   m_Name: British Female Gunner
   m_TagString: Unit
@@ -1777,6 +1778,10 @@ MonoBehaviour:
   worker: {fileID: 0}
   pathUpdateRate: 1
   lastPathUpdateTime: 0
+  curEnemyUnitTarget: {fileID: 0}
+  attackRate: 1
+  lastAttackTime: 0
+  defendRange: 30
 --- !u!114 &-4059547574852882213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,6 +1792,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8fcb9fb020ca041b80196ea023f972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4380860657694718353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd42b108638277478e654055752b2cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &129178
