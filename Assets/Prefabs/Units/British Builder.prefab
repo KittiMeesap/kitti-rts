@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -4059547574852882213}
   - component: {fileID: -815248469999109368}
   m_Layer: 6
-  m_Name: Builder
+  m_Name: British Builder
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

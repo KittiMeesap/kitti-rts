@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -4059547574852882213}
   - component: {fileID: -6819591495520580687}
   m_Layer: 6
-  m_Name: Worker
+  m_Name: British Worker
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
