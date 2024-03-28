@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 556967174151282494}
   - component: {fileID: 789776224408043594}
-  - component: {fileID: 1948493512371475756}
+  - component: {fileID: 6330070943130201832}
   - component: {fileID: 5014861643944638001}
   - component: {fileID: -5606252085452496162}
   m_Layer: 7
@@ -78,8 +78,8 @@ MonoBehaviour:
   shootRange: 50
   shootDamage: 10
   state: 0
---- !u!65 &1948493512371475756
-BoxCollider:
+--- !u!136 &6330070943130201832
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -96,9 +96,11 @@ BoxCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 32.4, y: 21.53, z: 33.9}
-  m_Center: {x: 0, y: 10.24, z: 0}
+  serializedVersion: 2
+  m_Radius: 15
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &5014861643944638001
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -108,12 +110,12 @@ NavMeshObstacle:
   m_GameObject: {fileID: 2284033887144960139}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 14.25, y: 11.9, z: 16.35}
+  m_Shape: 0
+  m_Extents: {x: 10, y: 1, z: 10}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 11, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
 --- !u!54 &-5606252085452496162
 Rigidbody:
@@ -167,8 +169,8 @@ Transform:
   m_GameObject: {fileID: 9179363351685064635}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 126.7, y: 3.2, z: 173.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 102.85, y: 3.2, z: 136.8}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8062081516442089137}
@@ -1391,11 +1393,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8911977481224003335, guid: 20e44d98d0f9d9b49b4d58e6b6d45d1b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.04
+      value: 3.24
       objectReference: {fileID: 0}
     - target: {fileID: 8911977481224003335, guid: 20e44d98d0f9d9b49b4d58e6b6d45d1b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.52
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 8911977481224003335, guid: 20e44d98d0f9d9b49b4d58e6b6d45d1b, type: 3}
       propertyPath: m_LocalPosition.x
