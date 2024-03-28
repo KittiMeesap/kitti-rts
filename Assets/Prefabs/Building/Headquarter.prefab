@@ -184,12 +184,7 @@ MonoBehaviour:
     stone: 0
   spawnPoint: {fileID: 2322334414985574552}
   rallyPoint: {fileID: 2616412469077469548}
-  unitPrefabs:
-  - {fileID: 186328, guid: 67287f06e87d17d428719483205fd601, type: 3}
-  - {fileID: 111782, guid: 2a1d954d522cf664fa3c05dea9c0587e, type: 3}
-  - {fileID: 128380, guid: 721f2500517e93a44abcf0b7733b3043, type: 3}
-  - {fileID: 128380, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
-  - {fileID: 132726, guid: cdc9988f0c76f53428fc78a965ace140, type: 3}
+  unitPrefabs: []
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
