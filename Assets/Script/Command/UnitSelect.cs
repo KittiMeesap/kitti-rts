@@ -167,8 +167,12 @@ public class UnitSelect : MonoBehaviour
 
         if (GameManager.instance.MyFaction.IsMyBuilding(curBuilding))
         {
-            //Debug.Log("my building");
+            Debug.Log("my building");
             ShowBuilding(curBuilding);//Show building info
+        }
+        else
+        {
+            ShowEnemyBuilding(curBuilding);
         }
     }
 
@@ -234,6 +238,11 @@ public class UnitSelect : MonoBehaviour
     private void ShowEnemyUnit (Unit u)
     {
         InfoManager.instance.ShowEnemyAllInfo(u);
+    }
+
+    private void ShowEnemyBuilding(Building b)
+    {
+        InfoManager.instance.ShowEnemyAllInfo(b);
     }
 
 }
