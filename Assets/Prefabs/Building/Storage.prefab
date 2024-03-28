@@ -69,7 +69,7 @@ MonoBehaviour:
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctional: 0
+  isFunctional: 1
   isHQ: 0
   intoTheGround: 5
 --- !u!54 &-4186493628154437775
@@ -97,7 +97,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!208 &-1588650324676898416
 NavMeshObstacle:
