@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5014861643944638001}
   - component: {fileID: -5606252085452496162}
   m_Layer: 7
-  m_Name: FortTower
+  m_Name: Br_FortTower
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,8 +67,10 @@ MonoBehaviour:
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctional: 1
+  isFunctional: 0
   isHQ: 0
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
   unitLayerMask:
     serializedVersion: 2

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1588650324676898416}
   - component: {fileID: 1927636567517166230}
   m_Layer: 7
-  m_Name: Storage
+  m_Name: Br_Barrack
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 909b1056dd609a14fbaa85f22406df92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: House
+  structureName: Barrack
   structurePic: {fileID: 21300000, guid: 44c1df498136ccf478a3751937ed235c, type: 3}
   curHP: 1
   maxHP: 100
@@ -64,13 +64,16 @@ MonoBehaviour:
     stone: 0
   spawnPoint: {fileID: 194398558650248794}
   rallyPoint: {fileID: 1904223847217206377}
-  unitPrefabs: []
+  unitPrefabs:
+  - {fileID: 186328, guid: 67287f06e87d17d428719483205fd601, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctional: 1
+  isFunctional: 0
   isHQ: 0
+  isHousing: 0
+  isBarrack: 1
   intoTheGround: 5
 --- !u!54 &-4186493628154437775
 Rigidbody:
