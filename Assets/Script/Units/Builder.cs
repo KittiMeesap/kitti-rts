@@ -55,7 +55,7 @@ public class Builder : MonoBehaviour
         switch (unit.State)
         {
             case UnitState.MoveToBuild:
-                MoveToBuild(InProgressBuilding);
+                MoveToBuild(inProgressBuilding);
                 break;
 
             case UnitState.BuildProgress:
