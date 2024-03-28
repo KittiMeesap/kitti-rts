@@ -19,6 +19,9 @@ public class UnitAnimation : MonoBehaviour
         anim.SetBool("IsGather", false);
         anim.SetBool("IsDeliverToHQ", false);
         anim.SetBool("IsStoreAtHQ", false);
+        anim.SetBool("IsMoveToEnemy", false);
+        anim.SetBool("IsMoveToEnemyBuilding", false);
+        anim.SetBool("IsAttackBuilding", false);
         anim.SetBool("IsDie",false);
 
         switch (u.State)
@@ -26,32 +29,53 @@ public class UnitAnimation : MonoBehaviour
             case UnitState.Idle:
                 anim.SetBool("IsIdle", true);
                 break;
+
             case UnitState.Move:
                 anim.SetBool("IsMove", true);
                 break;
+
             case UnitState.AttackUnit:
                 anim.SetBool("IsAttack", true);
                 break;
+
             case UnitState.MoveToBuild:
                 anim.SetBool("IsMoveToBuild", true);
                 break;
+
             case UnitState.BuildProgress:
                 anim.SetBool("IsBuildProgress", true);
                 break;
+
             case UnitState.MoveToResource:
                 anim.SetBool("IsMoveToResource", true);
                 break;
+
             case UnitState.Gather:
                 anim.SetBool("IsGather", true);
                 break;
+
             case UnitState.DeliverToHQ:
                 anim.SetBool("IsDeliverToHQ", true);
                 break;
+
             case UnitState.StoreAtHQ:
                 anim.SetBool("IsStoreAtHQ", true);
                 break;
+
+            case UnitState.MoveToEnemy:
+                anim.SetBool("IsMoveToEnemy", true);
+                break;
+
+            case UnitState.MoveToEnemyBuilding:
+                anim.SetBool("IsMoveToEnemyBuilding", true);
+                break;
+
+            case UnitState.AttackBuilding:
+                anim.SetBool("IsAttackBuilding", true);
+                break;
+
             case UnitState.Die:
-                anim.SetBool("IsDie",false);
+                anim.SetBool("IsDie",true);
                 break;
         }
     }

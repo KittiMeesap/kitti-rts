@@ -35,6 +35,15 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsStoreAtHQ
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemyBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsAttackBuilding
+    m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: IsDie
     m_EventTreshold: 0
@@ -115,7 +124,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 5567650919355653545}
-    m_Position: {x: 240, y: -110, z: 0}
+    m_Position: {x: 300, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5937733071062913160}
     m_Position: {x: 90, y: -60, z: 0}
@@ -205,6 +214,24 @@ AnimatorStateTransition:
     m_ConditionEvent: IsStoreAtHQ
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemyBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsAttackBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemyBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsAttackBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: IsDie
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -257,6 +284,15 @@ AnimatorStateTransition:
     m_ConditionEvent: IsStoreAtHQ
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemyBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsAttackBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: IsDie
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -307,6 +343,15 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsStoreAtHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemyBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsAttackBuilding
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsDie
@@ -388,6 +433,24 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: IsMoveToEnemy
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: IsMoveToEnemyBuilding
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: IsAttackBuilding
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: IsDie
     m_Type: 4
     m_DefaultFloat: 0
@@ -427,7 +490,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 09e5811655c71d94b988679a1e1f10be, type: 3}
+  m_Motion: {fileID: 7400002, guid: 7292639da4e5be74eb322ef50aa10d8d, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -493,6 +556,24 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsStoreAtHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemyBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsAttackBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemyBuilding
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsAttackBuilding
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsDie
