@@ -1391,9 +1391,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 362597990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corner1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2525,9 +2525,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 632423655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6361,9 +6361,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1289300864}
   - component: {fileID: 1289300865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NavMesh Surface
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7469,9 +7469,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573891006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corner2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
