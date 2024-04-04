@@ -833,7 +833,7 @@ MonoBehaviour:
   unitCost:
     food: 100
     wood: 10
-    gold: 50
+    gold: 10
     stone: 0
   unitWaitTime: 0.1
   isBuilder: 0

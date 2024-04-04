@@ -140,7 +140,7 @@ MonoBehaviour:
   maxHP: 100
   moveSpeed: 5
   minWpnDamage: 0
-  maxWpnDamage: 30
+  maxWpnDamage: 5
   armour: 3
   visualRange: 5
   weaponRange: 5
@@ -148,9 +148,9 @@ MonoBehaviour:
   faction: {fileID: 0}
   selectionVisual: {fileID: 6442513895026431259}
   unitCost:
-    food: 30
+    food: 10
     wood: 10
-    gold: 50
+    gold: 10
     stone: 0
   unitWaitTime: 0.1
   isBuilder: 0
@@ -160,6 +160,7 @@ MonoBehaviour:
   pathUpdateRate: 1
   lastPathUpdateTime: 0
   curEnemyUnitTarget: {fileID: 0}
+  curEnemyBuildingTarget: {fileID: 0}
   attackRate: 1
   lastAttackTime: 0
   defendRange: 30

@@ -139,8 +139,8 @@ MonoBehaviour:
   curHP: 100
   maxHP: 100
   moveSpeed: 5
-  minWpnDamage: 0
-  maxWpnDamage: 0
+  minWpnDamage: 1
+  maxWpnDamage: 5
   armour: 3
   visualRange: 5
   weaponRange: 5
@@ -149,8 +149,8 @@ MonoBehaviour:
   selectionVisual: {fileID: 6442513895026431259}
   unitCost:
     food: 30
-    wood: 10
-    gold: 50
+    wood: 20
+    gold: 0
     stone: 0
   unitWaitTime: 0.1
   isBuilder: 1
