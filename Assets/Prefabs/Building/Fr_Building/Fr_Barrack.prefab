@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 724587633703843118}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -112,11 +112,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 4.495, y: 4.345, z: 5.6}
+  m_Extents: {x: 3.965, y: 4.345, z: 5.6}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: -2.81, y: 6.66, z: -2.4}
+  m_Center: {x: -2.87, y: 6.66, z: -2.4}
   m_TimeToStationary: 0.5
 --- !u!65 &1927636567517166230
 BoxCollider:
@@ -195,7 +195,7 @@ Transform:
   m_GameObject: {fileID: 1621574899640231948}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.6, y: 0, z: 23}
+  m_LocalPosition: {x: -22.6, y: -3.2, z: 23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
