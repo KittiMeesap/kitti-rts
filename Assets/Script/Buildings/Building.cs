@@ -127,4 +127,16 @@ public class Building : Structure
         if (SelectionVisual != null)
             SelectionVisual.SetActive(flag);
     }
+
+    public int CheckNumInRecruitList(int id)
+    {
+        int num = 0;
+
+        foreach (Unit u in recruitList)
+        {
+            if (id == u.ID)
+                num++;
+        }
+        return num;
+    }
 }

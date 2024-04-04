@@ -75,9 +75,9 @@ public class UnitSelect : MonoBehaviour
             ReleaseSelectionBox(Input.mousePosition);
             TrySelect(Input.mousePosition);
         }
-        timer = Time.deltaTime;
+        timer += Time.deltaTime;
 
-        if (timer > timeLimit)
+        if (timer >= timeLimit)
         {
             timer = 0f;
             UpdateUI();
@@ -150,6 +150,7 @@ public class UnitSelect : MonoBehaviour
     private void ClearEverything()
     {
         ClearAllSelectionVisual();
+
         curUnits.Clear();
         curBuilding = null;
         curResource = null;
@@ -157,6 +158,7 @@ public class UnitSelect : MonoBehaviour
 
         //Clear UI
         InfoManager.instance.ClearAllInfo();
+        ActionManager.instance.ClearAllInfo();
     }
 
     private void ShowUnit(Unit u)
