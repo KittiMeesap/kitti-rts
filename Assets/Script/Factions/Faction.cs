@@ -215,7 +215,7 @@ public class Faction : MonoBehaviour
             unitLimit = 100;
         else if (unitLimit < 0)
             unitLimit = 0;
-
+        if (this == GameManager.instance.MyFaction)
         MainUI.instance.UpdateAllResource(this);
     }
 
@@ -245,7 +245,7 @@ public class Faction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        UpdateHousingLimit();
     }
 
     // Update is called once per frame
