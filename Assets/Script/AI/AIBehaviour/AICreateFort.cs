@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AICreateBarrack : AICreateHQ
+public class AICreateFort : AICreateHQ
 {
     // Start is called before the first frame update
     void Start()
     {
         support = gameObject.GetComponent<AISupport>();
 
-        buildingPrefab = support.Faction.BuildingPrefabs[2];
-        buildingGhostPrefab = support.Faction.GhostBuildingPrefabs[2];
+        buildingPrefab = support.Faction.BuildingPrefabs[3];
+        buildingGhostPrefab = support.Faction.GhostBuildingPrefabs[3];
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private bool CheckIfAnyUnfinishedHouseAndBarrack()
@@ -36,6 +36,15 @@ public class AICreateBarrack : AICreateHQ
             if (!b.IsFunctional && (b.CurHP < b.MaxHP)) //This barrack is not yet finished
                 return true;
         }
+
+        foreach (GameObject barrackObj in support.Fort)
+        {
+            Building b = barrackObj.GetComponent<Building>();
+
+            if (!b.IsFunctional && (b.CurHP < b.MaxHP)) //This barrack is not yet finished
+                return true;
+        }
+
         return false;
     }
 
@@ -54,5 +63,6 @@ public class AICreateBarrack : AICreateHQ
 
         return 0;
     }
+
 
 }

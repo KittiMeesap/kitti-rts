@@ -9654,7 +9654,7 @@ PrefabInstance:
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: unitPrefabs.Array.data[5]
       value: 
-      objectReference: {fileID: 1285624959266171577, guid: 2592f968f25650443b2983e63d731d38, type: 3}
+      objectReference: {fileID: 2284033887144960139, guid: 623f1f970804d6344819eab970cb6232, type: 3}
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: unitPrefabs.Array.data[6]
       value: 
@@ -9682,7 +9682,7 @@ PrefabInstance:
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: buildingPrefabs.Array.data[3]
       value: 
-      objectReference: {fileID: 2284033887144960139, guid: 8d6839d4383d264449b229b907bed452, type: 3}
+      objectReference: {fileID: 2284033887144960139, guid: f48a0056684a6a940a1abe916e429b5a, type: 3}
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: ghostBuildingPrefabs.Array.size
       value: 4
@@ -9702,7 +9702,7 @@ PrefabInstance:
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: ghostBuildingPrefabs.Array.data[3]
       value: 
-      objectReference: {fileID: 2284033887144960139, guid: dd53ddb7575e2864a95984b8da6a137c, type: 3}
+      objectReference: {fileID: 2284033887144960139, guid: 623f1f970804d6344819eab970cb6232, type: 3}
     - target: {fileID: 1391388714627571403, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -60.5
@@ -9788,6 +9788,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3851454254976018808, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2013481295}
+    - targetCorrespondingSourceObject: {fileID: 3851454254976018808, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013481296}
   m_SourcePrefab: {fileID: 100100000, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
 --- !u!4 &2013481286 stripped
 Transform:
@@ -9860,6 +9863,7 @@ MonoBehaviour:
   hq: []
   houses: []
   barracks: []
+  fort: []
   faction: {fileID: 0}
 --- !u!114 &2013481292
 MonoBehaviour:
@@ -9920,6 +9924,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70cf8b8122d05fc468418211b906d28b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+  rangeFromStartPos: 30
+--- !u!114 &2013481296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392247999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3c8fce7e029ff44887405776bf04c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weightMultiplier: 1

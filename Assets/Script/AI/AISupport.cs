@@ -22,6 +22,9 @@ public class AISupport : MonoBehaviour
     [SerializeField] private List<GameObject> barracks = new List<GameObject>();
     public List<GameObject> Barracks { get {  return barracks; } }
 
+    [SerializeField] private List<GameObject> fort = new List<GameObject>();
+    public List<GameObject> Fort { get {  return fort; } }
+
     [SerializeField] private Faction faction;
     public Faction Faction { get { return faction; } }
 
