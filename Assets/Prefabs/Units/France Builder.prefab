@@ -9,12 +9,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4540352410426792449, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: isWorker
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4540352410426792449, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
       propertyPath: unitName
       value: Fr.Builder
       objectReference: {fileID: 0}
     - target: {fileID: 128380, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
       propertyPath: m_Name
-      value: French Builder
+      value: France Builder
       objectReference: {fileID: 0}
     - target: {fileID: 453744, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63,5 +67,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 128380, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7166791084494244448}
   m_SourcePrefab: {fileID: 100100000, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+--- !u!1 &2044162313605528878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 128380, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+  m_PrefabInstance: {fileID: 2044162313605564498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7166791084494244448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044162313605528878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a9d5767fdff914e94f3c155e9a9cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curResourceSource: {fileID: 0}
+  gatherRate: 0.5
+  gatherAmount: 1
+  amountCarry: 0
+  maxCarry: 25
+  carryType: 0

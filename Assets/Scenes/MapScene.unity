@@ -9727,6 +9727,26 @@ PrefabInstance:
       propertyPath: buildingPrefabs.Array.data[3]
       value: 
       objectReference: {fileID: 724587633703843118, guid: beb8085d9dab3674995756567c4c8f9c, type: 3}
+    - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: 7d5d954fc14e2a548b7efd07404f0bf1, type: 3}
+    - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 2284033887144960139, guid: dd53ddb7575e2864a95984b8da6a137c, type: 3}
+    - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 6279896196329550276, guid: 0331b2ad463f0f6418ceca4ca787f388, type: 3}
+    - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: c248fa9d0a6d1c54faedbd0ec70daa6b, type: 3}
     - target: {fileID: 1391388714627571403, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -60.5
@@ -9806,6 +9826,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3851454254976018808, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2013481289}
+    - targetCorrespondingSourceObject: {fileID: 3851454254976018808, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013481294}
   m_SourcePrefab: {fileID: 100100000, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
 --- !u!4 &2013481286 stripped
 Transform:
@@ -9875,6 +9898,9 @@ MonoBehaviour:
   fighters: []
   builders: []
   workers: []
+  hq: []
+  houses: []
+  barracks: []
   faction: {fileID: 0}
 --- !u!114 &2013481292
 MonoBehaviour:
@@ -9910,6 +9936,21 @@ MonoBehaviour:
   curHunterLodge: {fileID: 0}
   unfinishedBuilding: {fileID: 0}
   specificBuilder: {fileID: 0}
+--- !u!114 &2013481294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392247999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc68d273c14bc94981c10b1c7102ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+  rangeFromStartPos: 30
 --- !u!1 &2017263086
 GameObject:
   m_ObjectHideFlags: 0

@@ -45,7 +45,8 @@ public class FactionAI : MonoBehaviour
         }
 
         UpdateImportantBuilding();
-        WorkerFindResource(ResourceType.Wood,3);
+        WorkerFindResource(ResourceType.Wood, 3);
+        WorkerFindResource(ResourceType.Food, 2);
     }
 
     private void UpdateImportantBuilding()
