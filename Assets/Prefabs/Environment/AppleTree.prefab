@@ -320,6 +320,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4284579886137582721, guid: 084789fb0fbf9d34284c93453cdb360d, type: 3}
+      propertyPath: resource
+      value: 
+      objectReference: {fileID: 1828499391081211188}
+    - target: {fileID: 5054165504387831312, guid: 084789fb0fbf9d34284c93453cdb360d, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6606165097504479037, guid: 084789fb0fbf9d34284c93453cdb360d, type: 3}
       propertyPath: m_Name
       value: ResourceUI
