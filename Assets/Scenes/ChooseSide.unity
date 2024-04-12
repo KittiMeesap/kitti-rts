@@ -240,8 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: babe3f2eee7dadc4cbe16aa8a8714781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuScene: 
-  chooseMapScene: 
+  mainMenuScene: MainMenu
+  chooseMapScene: ChooseMap
 --- !u!1 &495771085
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,7 +419,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 537340223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 134008534}
+        m_TargetAssemblyTypeName: SelectSide, Assembly-CSharp
+        m_MethodName: ChooseSide
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &537340223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,7 +1130,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1365982119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 134008534}
+        m_TargetAssemblyTypeName: SelectSide, Assembly-CSharp
+        m_MethodName: BackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1365982119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1374,7 +1398,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2081732175}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 134008534}
+        m_TargetAssemblyTypeName: SelectSide, Assembly-CSharp
+        m_MethodName: ChooseSide
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2081732175
 MonoBehaviour:
   m_ObjectHideFlags: 0
