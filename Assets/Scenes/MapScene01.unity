@@ -8960,6 +8960,10 @@ PrefabInstance:
       propertyPath: faction
       value: 
       objectReference: {fileID: 785833070}
+    - target: {fileID: 2616412469077469548, guid: 633fbc32985886642a8076ce80588948, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5909392105290447553, guid: 633fbc32985886642a8076ce80588948, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.3
