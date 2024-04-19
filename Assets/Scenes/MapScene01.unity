@@ -1478,12 +1478,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '3 Kitti Meesap
-
-'
+  m_text: 3 Kitti Meesap
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9118,6 +9116,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2626940301962614485, guid: 0dcb19f48c81aee4f83f28ec6b71144b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.7
+      objectReference: {fileID: 0}
     - target: {fileID: 4246553408763815352, guid: 0dcb19f48c81aee4f83f28ec6b71144b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9157,6 +9159,14 @@ PrefabInstance:
     - target: {fileID: 4246553408763815352, guid: 0dcb19f48c81aee4f83f28ec6b71144b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227721393411368540, guid: 0dcb19f48c81aee4f83f28ec6b71144b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227721393411368540, guid: 0dcb19f48c81aee4f83f28ec6b71144b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.3
       objectReference: {fileID: 0}
     - target: {fileID: 8593206786542478182, guid: 0dcb19f48c81aee4f83f28ec6b71144b, type: 3}
       propertyPath: m_Name
