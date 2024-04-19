@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -4059547574852882213}
   - component: {fileID: -6819591495520580687}
   - component: {fileID: -1413756397295489078}
+  - component: {fileID: 6141613623617076922}
   m_Layer: 6
   m_Name: British Worker
   m_TagString: Unit
@@ -204,6 +205,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3dd42b108638277478e654055752b2cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6141613623617076922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c27bd6672c7e694abf5bb8cf41acaa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &93714652106963365

@@ -699,6 +699,7 @@ GameObject:
   - component: {fileID: -3922830481752667606}
   - component: {fileID: 5181520513416060752}
   - component: {fileID: -5494903280120911251}
+  - component: {fileID: -6466752438823591866}
   m_Layer: 6
   m_Name: British Captain
   m_TagString: Unit
@@ -869,6 +870,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3dd42b108638277478e654055752b2cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6466752438823591866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c27bd6672c7e694abf5bb8cf41acaa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &111866
