@@ -19,7 +19,7 @@ public class AICreateFort : AICreateHQ
         
     }
 
-    private bool CheckIfAnyUnfinishedHouseAndBarrack()
+    private bool CheckIfAnyUnfinishedHouseAndBarrackAndFort()
     {
         foreach (GameObject houseObj in support.Houses)
         {
@@ -37,11 +37,11 @@ public class AICreateFort : AICreateHQ
                 return true;
         }
 
-        foreach (GameObject barrackObj in support.Fort)
+        foreach (GameObject fortObj in support.Fort)
         {
-            Building b = barrackObj.GetComponent<Building>();
+            Building f = fortObj.GetComponent<Building>();
 
-            if (!b.IsFunctional && (b.CurHP < b.MaxHP)) //This barrack is not yet finished
+            if (!f.IsFunctional && (f.CurHP < f.MaxHP)) //This fort is not yet finished
                 return true;
         }
 
@@ -50,15 +50,15 @@ public class AICreateFort : AICreateHQ
 
     public override float GetWeight()
     {
-        Building b = buildingPrefab.GetComponent<Building>();
+        Building f = buildingPrefab.GetComponent<Building>();
 
-        if (!support.Faction.CheckBuildingCost(b)) //Don't have enough resource to build a barrack
+        if (!support.Faction.CheckBuildingCost(f)) //Don't have enough resource to build a barrack
             return 0;
 
-        if (CheckIfAnyUnfinishedHouseAndBarrack()) //Check if there is any unfinished house or barrack
+        if (CheckIfAnyUnfinishedHouseAndBarrackAndFort()) //Check if there is any unfinished house or barrack
             return 0;
 
-        if (support.Barracks.Count < 2 && support.Houses.Count > 0) // If there are less than 2 barracks and there are some houses
+        if (support.Barracks.Count < 2 && support.Houses.Count > 0 && support.Fort.Count < 2) // If there are less than 2 barracks and there are some houses
             return 2;
 
         return 0;

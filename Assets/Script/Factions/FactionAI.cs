@@ -61,7 +61,7 @@ public class FactionAI : MonoBehaviour
             if ((support.Fighters.Count < 5))// if there are less than 5 fighters
             {
                 if (faction.CheckUnitCost(4))
-                    curBarrack.ToCreateUnit(1); // recruits main fighter
+                    curBarrack.ToCreateUnit(2); // recruits main fighter
             }
         }
 
