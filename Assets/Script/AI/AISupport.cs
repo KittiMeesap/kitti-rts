@@ -52,6 +52,7 @@ public class AISupport : MonoBehaviour
         hq.Clear();
         houses.Clear();
         barracks.Clear();
+        fort.Clear();
 
         foreach (Building b in faction.AliveBuildings)
         {
