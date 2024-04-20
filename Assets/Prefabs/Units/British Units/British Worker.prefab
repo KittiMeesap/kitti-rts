@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc081b437b841b0469ca304e955c3d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 4
+  id: 2
   unitName: Worker
   unitPic: {fileID: 21300000, guid: adc3275b8de7b6d40a655198434a782a, type: 3}
   curHP: 100
@@ -143,7 +143,7 @@ MonoBehaviour:
   minWpnDamage: 0
   maxWpnDamage: 5
   armour: 3
-  visualRange: 5
+  visualRange: 60
   weaponRange: 5
   state: 0
   faction: {fileID: 0}

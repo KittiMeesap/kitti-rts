@@ -26,12 +26,20 @@ public class FactionAI : MonoBehaviour
         //Create Workers
         if (curHQ != null)
         {
-            if ((support.Workers.Count + curHQ.CheckNumInRecruitList(0)) < 5) // if there are less than 5 units, keep recruiting Workers
+            if ((support.Builders.Count + curHQ.CheckNumInRecruitList(0)) < 5) // if there are less than 5 units, keep recruiting Workers
+            {
+                // if we can recruit a new worker/builder, do so
+                if (faction.CheckUnitCost(1))
+                    curHQ.ToCreateUnit(0); //HQ recruits a primary worker/builder
+            }
+
+            if ((support.Workers.Count + curHQ.CheckNumInRecruitList(2)) < 5) // if there are less than 5 units, keep recruiting Workers
             {
                 // if we can recruit a new worker/builder, do so
                 if (faction.CheckUnitCost(0))
                     curHQ.ToCreateUnit(0); //HQ recruits a primary worker/builder
             }
+
         }
 
         //Create main fighters
@@ -39,7 +47,7 @@ public class FactionAI : MonoBehaviour
         {
             if ((support.Fighters.Count < 5))// if there are less than 5 fighters
             {
-                if (faction.CheckUnitCost(1))
+                if (faction.CheckUnitCost(2))
                     curBarrack.ToCreateUnit(0); // recruits main fighter
             }
         }
