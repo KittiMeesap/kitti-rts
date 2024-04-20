@@ -8299,7 +8299,7 @@ PrefabInstance:
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: buildingPrefabs.Array.data[3]
       value: 
-      objectReference: {fileID: 2284033887144960139, guid: f48a0056684a6a940a1abe916e429b5a, type: 3}
+      objectReference: {fileID: 2284033887144960139, guid: 8d6839d4383d264449b229b907bed452, type: 3}
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: ghostBuildingPrefabs.Array.size
       value: 4
@@ -8319,7 +8319,7 @@ PrefabInstance:
     - target: {fileID: -5483869371267926644, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: ghostBuildingPrefabs.Array.data[3]
       value: 
-      objectReference: {fileID: 2284033887144960139, guid: 623f1f970804d6344819eab970cb6232, type: 3}
+      objectReference: {fileID: 2284033887144960139, guid: dd53ddb7575e2864a95984b8da6a137c, type: 3}
     - target: {fileID: 1391388714627571403, guid: cf4d19eb36d819b498e4723536ce674d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -60.5

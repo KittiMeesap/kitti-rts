@@ -165,10 +165,10 @@ MonoBehaviour:
   - {fileID: 724587633703843118, guid: a7aabac00859e2e419e05448918e2811, type: 3}
   unitPrefabs:
   - {fileID: 128380, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+  - {fileID: 128380, guid: a94c2167c881505419854df47a1b2271, type: 3}
+  - {fileID: 186328, guid: 67287f06e87d17d428719483205fd601, type: 3}
   - {fileID: 111782, guid: 2a1d954d522cf664fa3c05dea9c0587e, type: 3}
   - {fileID: 128380, guid: 721f2500517e93a44abcf0b7733b3043, type: 3}
-  - {fileID: 186328, guid: 67287f06e87d17d428719483205fd601, type: 3}
-  - {fileID: 128380, guid: a94c2167c881505419854df47a1b2271, type: 3}
 --- !u!1 &4423422802068354587
 GameObject:
   m_ObjectHideFlags: 0

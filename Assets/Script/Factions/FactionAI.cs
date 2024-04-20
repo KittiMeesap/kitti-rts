@@ -31,7 +31,7 @@ public class FactionAI : MonoBehaviour
             {
                 // if we can recruit a new worker/builder, do so
                 if (faction.CheckUnitCost(0))
-                    curHQ.ToCreateUnit(0); //HQ recruits a primary worker/builder
+                    curHQ.ToCreateUnit(1); //HQ recruits a primary worker/builder
             }
 
             //Builder
@@ -41,9 +41,6 @@ public class FactionAI : MonoBehaviour
                 if (faction.CheckUnitCost(1))
                     curHQ.ToCreateUnit(0); //HQ recruits a primary worker/builder
             }
-
-            
-
         }
 
         //Create main fighters
