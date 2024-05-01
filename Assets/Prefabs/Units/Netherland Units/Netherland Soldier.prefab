@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1285624959266028897
+--- !u!1001 &2664911969473912911
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 186328, guid: 67287f06e87d17d428719483205fd601, type: 3}
       propertyPath: m_Name
-      value: France Soldier
+      value: Netherland Soldier
       objectReference: {fileID: 0}
     - target: {fileID: 427352, guid: 67287f06e87d17d428719483205fd601, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55,14 +55,10 @@ PrefabInstance:
     - target: {fileID: 13717370, guid: 67287f06e87d17d428719483205fd601, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
-    - target: {fileID: 1697114722567828272, guid: 67287f06e87d17d428719483205fd601, type: 3}
-      propertyPath: unitPic
-      value: 
-      objectReference: {fileID: 21300000, guid: 2ff6abca65dc28649b6295a8d4e68c0b, type: 3}
+      objectReference: {fileID: 2100000, guid: 68cc9bc1692dabf4596c958ffe06eae6, type: 2}
     - target: {fileID: 1697114722567828272, guid: 67287f06e87d17d428719483205fd601, type: 3}
       propertyPath: unitName
-      value: Fr.Regular
+      value: Ntl.Regular
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
