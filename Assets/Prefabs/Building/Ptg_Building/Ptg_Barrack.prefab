@@ -66,9 +66,9 @@ MonoBehaviour:
   spawnPoint: {fileID: 194398558650248794}
   rallyPoint: {fileID: 1904223847217206377}
   unitPrefabs:
-  - {fileID: 186328, guid: 67287f06e87d17d428719483205fd601, type: 3}
-  - {fileID: 111782, guid: 2a1d954d522cf664fa3c05dea9c0587e, type: 3}
-  - {fileID: 128380, guid: 721f2500517e93a44abcf0b7733b3043, type: 3}
+  - {fileID: 4122647007469594454, guid: 00089d034e1aa9349b2ec9f8d6cd349b, type: 3}
+  - {fileID: 5995748496386238205, guid: c0e70400803e8d94e98016b3068749ee, type: 3}
+  - {fileID: 6587283519004909603, guid: 46ccf0e62de270846994fccfaa9902c0, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
