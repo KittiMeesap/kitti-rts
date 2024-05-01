@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 2114842609635657190, guid: 8ef2e793f11b6aa409a1d37cadd83da9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1540fc37fe4429b4589aeed0285fd0ba, type: 2}
+      objectReference: {fileID: 2100000, guid: 68cc9bc1692dabf4596c958ffe06eae6, type: 2}
     - target: {fileID: 2114842609647227436, guid: 8ef2e793f11b6aa409a1d37cadd83da9, type: 3}
       propertyPath: m_Name
       value: Portugal Captain
