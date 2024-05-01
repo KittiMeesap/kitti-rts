@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4574917939019407335, guid: 816faf0aa922d4d4e9fd40ae607096a3, type: 3}
+      propertyPath: unitPic
+      value: 
+      objectReference: {fileID: 21300000, guid: f353c2df6192f18449fddd7e562bcbb2, type: 3}
+    - target: {fileID: 4574917939019407335, guid: 816faf0aa922d4d4e9fd40ae607096a3, type: 3}
       propertyPath: unitName
       value: Sp.Worker
       objectReference: {fileID: 0}

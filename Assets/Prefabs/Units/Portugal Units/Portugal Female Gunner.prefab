@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4256079552460141591, guid: bdc9ac5d5c57f20488444d4418ff5fee, type: 3}
+      propertyPath: unitPic
+      value: 
+      objectReference: {fileID: 21300000, guid: 02a7c46803b41d144b9f8cebfa678e47, type: 3}
+    - target: {fileID: 4256079552460141591, guid: bdc9ac5d5c57f20488444d4418ff5fee, type: 3}
       propertyPath: unitName
       value: Ptg.WomenGunner
       objectReference: {fileID: 0}

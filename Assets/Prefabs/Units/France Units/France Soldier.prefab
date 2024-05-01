@@ -59,7 +59,7 @@ PrefabInstance:
     - target: {fileID: 1697114722567828272, guid: 67287f06e87d17d428719483205fd601, type: 3}
       propertyPath: unitPic
       value: 
-      objectReference: {fileID: 21300000, guid: 2ff6abca65dc28649b6295a8d4e68c0b, type: 3}
+      objectReference: {fileID: 21300000, guid: 6d8b65ee7049e7c418491510fcb73c93, type: 3}
     - target: {fileID: 1697114722567828272, guid: 67287f06e87d17d428719483205fd601, type: 3}
       propertyPath: unitName
       value: Fr.Regular

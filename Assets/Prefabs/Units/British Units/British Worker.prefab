@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   unitName: Brit.Worker
-  unitPic: {fileID: 21300000, guid: adc3275b8de7b6d40a655198434a782a, type: 3}
+  unitPic: {fileID: 21300000, guid: 6a269b939db775846a8ed1799e203e9d, type: 3}
   curHP: 100
   maxHP: 100
   moveSpeed: 5

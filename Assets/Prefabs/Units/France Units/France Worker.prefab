@@ -9,12 +9,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4540352410426792449, guid: a94c2167c881505419854df47a1b2271, type: 3}
+      propertyPath: unitPic
+      value: 
+      objectReference: {fileID: 21300000, guid: a2e6bcef1c0bc21439fa63b93d03aa8e, type: 3}
+    - target: {fileID: -4540352410426792449, guid: a94c2167c881505419854df47a1b2271, type: 3}
       propertyPath: unitName
       value: Fr.Worker
       objectReference: {fileID: 0}
     - target: {fileID: 128380, guid: a94c2167c881505419854df47a1b2271, type: 3}
       propertyPath: m_Name
-      value: French Worker
+      value: France Worker
       objectReference: {fileID: 0}
     - target: {fileID: 453744, guid: a94c2167c881505419854df47a1b2271, type: 3}
       propertyPath: m_LocalPosition.x

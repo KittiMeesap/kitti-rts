@@ -57,6 +57,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 68cc9bc1692dabf4596c958ffe06eae6, type: 2}
     - target: {fileID: 6675248629300555181, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: unitPic
+      value: 
+      objectReference: {fileID: 21300000, guid: 51906a55e50252246aadc3701181168d, type: 3}
+    - target: {fileID: 6675248629300555181, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
       propertyPath: unitName
       value: Ptg.Builder
       objectReference: {fileID: 0}
