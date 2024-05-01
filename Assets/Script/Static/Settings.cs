@@ -16,10 +16,26 @@ public static class Settings
             case 0:
                 mySide = Nation.Britain;
                 EnemySide = Nation.France;
+                EnemySide = Nation.Portugal;
+                EnemySide = Nation.Spain;
                 break;
             case 1:
                 mySide = Nation.France;
                 EnemySide = Nation.Britain;
+                EnemySide = Nation.Portugal;
+                EnemySide = Nation.Spain;
+                break;
+            case 2:
+                mySide = Nation.Portugal;
+                EnemySide = Nation.Britain;
+                EnemySide = Nation.France;
+                EnemySide = Nation.Spain;
+                break;
+            case 3:
+                mySide = Nation.Spain;
+                EnemySide = Nation.Britain;
+                EnemySide = Nation.France;
+                EnemySide = Nation.Portugal;
                 break;
         }
     }

@@ -4728,6 +4728,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7798461826353590265, guid: 66fc441ec96544942bec59667d1bbff5, type: 3}
   m_PrefabInstance: {fileID: 509789877}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &509789880 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7582987965158824237, guid: 66fc441ec96544942bec59667d1bbff5, type: 3}
+  m_PrefabInstance: {fileID: 509789877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c4bc08886df7d459c433cc1a1f20d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &512531268
 GameObject:
   m_ObjectHideFlags: 0
@@ -13408,6 +13419,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4834197414808902, guid: 0dd302aa8cbf1d14a8f24a87493bc019, type: 3}
   m_PrefabInstance: {fileID: 1362311453}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1367362908 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7582987965158824237, guid: aaffaf1e564e0114f8bfc08d43491f75, type: 3}
+  m_PrefabInstance: {fileID: 213847393}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c4bc08886df7d459c433cc1a1f20d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1381045488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19971,7 +19993,7 @@ PrefabInstance:
       objectReference: {fileID: 2013481288}
     - target: {fileID: 4391199671100427610, guid: df2457294475e034ab952aa5b7de9a1d, type: 3}
       propertyPath: factions.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4391199671100427610, guid: df2457294475e034ab952aa5b7de9a1d, type: 3}
       propertyPath: factions.Array.data[0]
@@ -19980,11 +20002,15 @@ PrefabInstance:
     - target: {fileID: 4391199671100427610, guid: df2457294475e034ab952aa5b7de9a1d, type: 3}
       propertyPath: factions.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2013481288}
     - target: {fileID: 4391199671100427610, guid: df2457294475e034ab952aa5b7de9a1d, type: 3}
       propertyPath: factions.Array.data[2]
       value: 
-      objectReference: {fileID: 2013481288}
+      objectReference: {fileID: 1367362908}
+    - target: {fileID: 4391199671100427610, guid: df2457294475e034ab952aa5b7de9a1d, type: 3}
+      propertyPath: factions.Array.data[3]
+      value: 
+      objectReference: {fileID: 509789880}
     - target: {fileID: 5460960294926868286, guid: df2457294475e034ab952aa5b7de9a1d, type: 3}
       propertyPath: m_Name
       value: 'GameManager '
