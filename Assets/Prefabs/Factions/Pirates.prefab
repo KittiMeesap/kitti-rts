@@ -56,19 +56,6 @@ MonoBehaviour:
   ghostBuildingParent: {fileID: 0}
   startPosition: {fileID: 0}
   newResourceRange: 50
-  buildingPrefabs:
-  - {fileID: 724587633703843118, guid: 86d9d2c966296824ba3dc741990a6053, type: 3}
-  - {fileID: 2284033887144960139, guid: 8d6839d4383d264449b229b907bed452, type: 3}
-  - {fileID: 6279896196329550276, guid: feeb7b7c12291c54198a7c40d43495ca, type: 3}
-  - {fileID: 724587633703843118, guid: beb8085d9dab3674995756567c4c8f9c, type: 3}
-  ghostBuildingPrefabs:
-  - {fileID: 724587633703843118, guid: 7d5d954fc14e2a548b7efd07404f0bf1, type: 3}
-  - {fileID: 2284033887144960139, guid: dd53ddb7575e2864a95984b8da6a137c, type: 3}
-  - {fileID: 6279896196329550276, guid: 0331b2ad463f0f6418ceca4ca787f388, type: 3}
-  - {fileID: 724587633703843118, guid: c248fa9d0a6d1c54faedbd0ec70daa6b, type: 3}
-  unitPrefabs:
-  - {fileID: 2044162313605528878, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
-  - {fileID: 9187398394643844964, guid: 816faf0aa922d4d4e9fd40ae607096a3, type: 3}
-  - {fileID: 1285624959266171577, guid: 2592f968f25650443b2983e63d731d38, type: 3}
-  - {fileID: 2114842609647227436, guid: 8ef2e793f11b6aa409a1d37cadd83da9, type: 3}
-  - {fileID: 8930018230611567764, guid: bdc9ac5d5c57f20488444d4418ff5fee, type: 3}
+  buildingPrefabs: []
+  ghostBuildingPrefabs: []
+  unitPrefabs: []
