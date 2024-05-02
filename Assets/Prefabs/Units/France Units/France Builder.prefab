@@ -20,6 +20,38 @@ PrefabInstance:
       propertyPath: unitName
       value: Fr.Builder
       objectReference: {fileID: 0}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: buildingList.Array.data[0]
+      value: 
+      objectReference: {fileID: 6279896196329550276, guid: feeb7b7c12291c54198a7c40d43495ca, type: 3}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: buildingList.Array.data[1]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: beb8085d9dab3674995756567c4c8f9c, type: 3}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: buildingList.Array.data[2]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: 86d9d2c966296824ba3dc741990a6053, type: 3}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: buildingList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2284033887144960139, guid: 8d6839d4383d264449b229b907bed452, type: 3}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: ghostBuildingList.Array.data[0]
+      value: 
+      objectReference: {fileID: 6279896196329550276, guid: 0331b2ad463f0f6418ceca4ca787f388, type: 3}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: ghostBuildingList.Array.data[1]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: c248fa9d0a6d1c54faedbd0ec70daa6b, type: 3}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: ghostBuildingList.Array.data[2]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: 7d5d954fc14e2a548b7efd07404f0bf1, type: 3}
+    - target: {fileID: -815248469999109368, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
+      propertyPath: ghostBuildingList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2284033887144960139, guid: dd53ddb7575e2864a95984b8da6a137c, type: 3}
     - target: {fileID: 128380, guid: dbc894a2d19afa441bd7a43719935cfa, type: 3}
       propertyPath: m_Name
       value: France Builder

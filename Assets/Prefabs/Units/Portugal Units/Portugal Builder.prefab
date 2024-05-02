@@ -64,6 +64,38 @@ PrefabInstance:
       propertyPath: unitName
       value: Ptg.Builder
       objectReference: {fileID: 0}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: buildingList.Array.data[0]
+      value: 
+      objectReference: {fileID: 6279896196329550276, guid: 0c95e09fa37866546918f5e2bc5addb9, type: 3}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: buildingList.Array.data[1]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: da4acfd3e2ae78948a79a939da7e74a5, type: 3}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: buildingList.Array.data[2]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: 0376e525f66b3fa4ea39485e800e2079, type: 3}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: buildingList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2284033887144960139, guid: 7db8b37bf6483b3469119f791766f6b8, type: 3}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: ghostBuildingList.Array.data[0]
+      value: 
+      objectReference: {fileID: 6279896196329550276, guid: f6876392d27215b4693b4fb16217b3c4, type: 3}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: ghostBuildingList.Array.data[1]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: a62bfc20958e643419f37a5c5fdcb8e2, type: 3}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: ghostBuildingList.Array.data[2]
+      value: 
+      objectReference: {fileID: 724587633703843118, guid: 7de5987bdb0180543b8e0ba88bbec82f, type: 3}
+    - target: {fileID: 7562094761947362138, guid: a14e99f620541eb4ba7ff9012ac27f9d, type: 3}
+      propertyPath: ghostBuildingList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2284033887144960139, guid: af96a327ae3685a4789b213a6f810e9e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
